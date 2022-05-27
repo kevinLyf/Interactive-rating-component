@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="rating-box">
+        <header class="rating-header">
+          <!-- Rating state start -->
+          <div class="rating-header-icon">
+            <img src="/images/icon-star.svg" alt="star" />
+          </div>
+        </header>
+        <main class="rating-main">
+          <section class="section-one">
+            <h1>How did we do?</h1>
+          </section>
+          <section class="section-two">
+            <p>
+              Please let us know how we did with your support request. All
+              feedback is appreciated to help us improve our offering!
+            </p>
+          </section>
+        </main>
+        <footer>
+          <div class="rating-numbers">
+            <div id="rNumber1" class="rating-numbers-1">
+              <p>1</p>
+            </div>
+            <div id="rNumber2" class="rating-numbers-2">
+              <p>2</p>
+            </div>
+            <div id="rNumber3" class="rating-numbers-3">
+              <p>3</p>
+            </div>
+            <div id="rNumber4" class="rating-numbers-4">
+              <p>4</p>
+            </div>
+            <div id="rNumber5" class="rating-numbers-5">
+              <p>5</p>
+            </div>
+          </div>
+          <div class="rating-submit">
+            <button onclick="thanksPage()" id="submitBtn">Submit</button>
+          </div>
+        </footer>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a target="_blank" href="https://github.com/kevinLyf"
+          >Kevin Ferreira Feitosa</a
+        >.
+      </div>
+    </div>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
